@@ -1,0 +1,34 @@
+.container{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-left: 70px;
+}
+.board{
+    width: 300px;
+    height: 300px;
+    display:flex;
+    flex-wrap: wrap;
+}
+p{
+    margin-left: 100px;
+}
+.disabled{
+    pointer-events: none;
+  }
+button{
+    width: 100px;
+    height: 100px;
+}
+.reset-btn{
+    height: 30px;
+    width: 60px;
+    margin-left: 100px;
+    background-color: green;
+    color: whitesmoke;
+
+}
